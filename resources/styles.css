@@ -41,7 +41,7 @@ css for links
 }
 
 hr {
-    margin: 2rem 0rem;
+    margin: 1rem 0rem;
 }
 
 .no-bullet {
@@ -102,17 +102,19 @@ hr {
 /*
 sections
 */
+.sectionTag{
+    padding: 2rem;
+}
 .sectionTag h1 {
     text-align: center;
-    padding: 2rem;
 }
 
 .even {
     background-color: #E5E7EB;
 }
 
-.footer{
 
+.footer{
     background-color:  #1E3A8A;
     padding: 1rem;
     text-align: center;
@@ -122,4 +124,5 @@ sections
 
 .footer .link{
     color: white;
+
 }

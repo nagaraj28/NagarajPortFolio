@@ -7,42 +7,35 @@
     <link href="resources/styles.css" rel="stylesheet">
 </head>
 <body>
-
-    <h2>@nav</h2>
-    <nav>
-    <div>
-        I'm a Software Engineer
-    </div>
-<div>
-    <a href="#">Home</a>
-    <a href="/projectPage.html">Projects</a>
-    <a href="#">Blogs</a>
-</div>    
-</nav>
-<hr>
-<header>
-<h2>@picture</h2>
-<img src="resources/images/profilePicture.svg"/>
-</header>
-<hr>
-
-    <!--About Me-->
-
-        <h1>@AboutMe:</h1>
-    I am Nagaraju Rathna Software Engineer at OpenText
-</h2>
-<hr>
-    <h2>@footer</h2>
-<footer>
-    <div>
-        <ul>
-            <li>SociMedia profile</li>
-            <li>SociMedia profile</li>
-            <li>SociMedia profile</li>
+    <nav class="nav-bar">
+        <div class="nav-brand">Nagaraju Rathna</div>
+        <ul class="no-bullet">
+            <li class="show-list-inline "><a href="#">Home</a></li>
+            <li class="show-list-inline "><a  href="/projectPage.html">project</a></li>
+            <li class="show-list-inline "><a  href="#">blog</a></li>
         </ul>
-    </div>
-</footer>
-
-
+    </nav>
+    <hr>
+    <header "picture-header">
+        <img class="picture-img" src="resources/images/profilePicture.svg" />
+        <h3 class="picture-text">Hey I'm Nagaraju <span class="highlight-company">Engineer at OpenText</span>
+        </h3>
+    </header>
+    <hr>
+    <section class="sectionTag even">
+        <div class="container container-center">
+            <h1>projects</h1>
+            <p>I would like to showcase my work and thus,you can see my projects hosted online and some available in github</p>
+            <a class="links primaryLink" href="projectPage.html">See My projects</a>
+        </div>
+      
+    </section>
+    <section class="sectionTag odd">
+        <div class="container container-center">
+            <h1>technologies</h1>
+            <p>I'm familiar with C++,Java,selenium,Jquery,Mysql</p>
+        </div>
+    </section>
+    
 </body>
 </html>
