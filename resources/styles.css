@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,700&display=swap');
 
 :root {
-    ;
+    
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
+    margin: 0px;
 
 }
 
@@ -124,6 +125,7 @@ sections
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
+   
 }
 
 .footer .link{
