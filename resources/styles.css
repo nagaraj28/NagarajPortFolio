@@ -34,15 +34,16 @@ css for links
     font-size: 1rem;
 }
 .primaryLink {
-    background-color: rgb(87, 61, 180);
+    background-color: #1E3A8A;
     border-radius: 0.5rem;
-    color: cornsilk;
+    color:white;
 }
 
 .secondaryLink {
-    background-color: darkorchid;
+    background-color: white;
     border-radius: 0.5rem;
-    color: cornsilk;
+    color:#1E3A8A;
+    border: 1px solid #1E3A8A;
 }
 
 hr {
@@ -125,6 +126,7 @@ sections
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
+
    
 }
 
