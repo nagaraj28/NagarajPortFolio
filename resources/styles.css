@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,700&display=swap');
 
-:root {
-    
-}
+:root {}
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -29,20 +27,21 @@ css for links
 
 }
 
-.nav-bar .link-active{
+.nav-bar .link-active {
     font-weight: bold;
     font-size: 1rem;
 }
+
 .primaryLink {
     background-color: #1E3A8A;
     border-radius: 0.5rem;
-    color:white;
+    color: white;
 }
 
 .secondaryLink {
     background-color: white;
     border-radius: 0.5rem;
-    color:#1E3A8A;
+    color: #1E3A8A;
     border: 1px solid #1E3A8A;
 }
 
@@ -108,9 +107,10 @@ hr {
 /*
 sections
 */
-.sectionTag{
+.sectionTag {
     padding: 2rem;
 }
+
 .sectionTag h1 {
     text-align: center;
 }
@@ -119,22 +119,22 @@ sections
     background-color: #E5E7EB;
 }
 
-
-.footer{
-    background-color:  #1E3A8A;
+.footer {
+    background-color: #1E3A8A;
     padding: 1rem;
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
 
-   
+
 }
 
-.footer .link{
+.footer .link {
     color: white;
 
 }
-.footer-header{
+
+.footer-header {
     font-weight: bold;
     font-size: large;
 }
