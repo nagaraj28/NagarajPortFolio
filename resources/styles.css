@@ -90,7 +90,11 @@ hr {
     display: block;
     margin: auto;
 }
-
+.socialMediaIcons{
+    max-width: 2.5rem;
+    display: inline;
+    margin: auto;
+}
 .picture-text {
     color: grey;
     display: block;
