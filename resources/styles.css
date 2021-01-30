@@ -138,3 +138,7 @@ sections
     font-weight: bold;
     font-size: large;
 }
+
+a{
+    text-decoration: none;
+}
